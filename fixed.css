@@ -1,0 +1,31 @@
+.parent{
+    position: relative;
+    background-color: grey;
+    margin :6%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.child{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border: 1px solid red;
+    padding: 30px;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.position{
+    /* it changes position w.r.t viewport if parent is non-static  */
+    /* it changes position w.r.t viewport if parent is static   */
+    /* means fixed position changes position of the elenment w.r.t viewport even when its parent has any property */
+    position: fixed;
+    /* after applying this code ..the below code will be executed */
+    left: 0px;
+    top : 0px;
+}
