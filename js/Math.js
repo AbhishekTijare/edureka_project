@@ -1,0 +1,14 @@
+/*
+Math.round();
+Math.ceil();
+Math.floor();
+Math.sqrt();
+Math.min();
+Math.max();
+*/
+console.log(Math.round(4.6));
+console.log(Math.ceil(4.3));
+console.log(Math.floor(4.6));
+console.log(Math.sqrt(25));
+console.log(Math.min(1,3,2,4,5,6,78));
+console.log(Math.max(1,3,2,4,5,6,78));

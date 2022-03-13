@@ -1,0 +1,14 @@
+/* using class */
+.header{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://image.shutterstock.com/image-photo/back-school-education-banner-background-260nw-1276695403.jpg);
+}
+.su{
+    background-color: gray;
+    border: 1px solid darkgray;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}

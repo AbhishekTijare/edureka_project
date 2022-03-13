@@ -1,0 +1,31 @@
+.parent{
+    background-color: grey;
+    margin :6%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 3000px;
+    height: 3000px;
+}
+.child{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border: 1px solid red;
+    padding: 30px;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.position{
+    position: sticky;
+    /* after applying this code ..the below code will be ignored */
+    left: 0px;
+    top :0px;
+    right: 0px;
+    bottom: 0px;
+}
